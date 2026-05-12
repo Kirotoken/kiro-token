@@ -1,0 +1,25 @@
+{
+  "name": "kiro-token",
+  "version": "1.0.0",
+  "description": "Proof-of-Work mineable ERC20 token with fair launch",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "verify": "hardhat verify --network sepolia"
+  },
+  "keywords": ["ethereum", "pow", "mining", "erc20", "fair-launch"],
+  "author": "anansetiawan40-oss",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
