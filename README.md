@@ -65,7 +65,8 @@ python3 kiro_gpu_miner.py
 
 ### Contract Address
 
-**Sepolia Testnet:** (will be updated after deployment)
+**Sepolia Testnet:** `0x48D1B2aE9234345fD2e2a4b82Ccb3A922583A3C8`
+**Etherscan:** https://sepolia.etherscan.io/address/0x48D1B2aE9234345fD2e2a4b82Ccb3A922583A3C8
 **Base Mainnet:** (TBD)
 
 ### Difficulty Stages
